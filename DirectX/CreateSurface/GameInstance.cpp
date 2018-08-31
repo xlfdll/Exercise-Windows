@@ -1,0 +1,9 @@
+#include "GameInstance.h"
+
+HWND hWnd = NULL;
+
+LPDIRECT3D9 d3d = NULL;
+LPDIRECT3DDEVICE9 d3ddev = NULL;
+LPDIRECT3DSURFACE9 backbuffer = NULL;
+
+LPDIRECT3DSURFACE9 surface = NULL;
